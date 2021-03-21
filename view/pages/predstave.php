@@ -1,3 +1,4 @@
+<?php?>
 <main>
     <div class="naslov">
         <h1>Predstave</h1>

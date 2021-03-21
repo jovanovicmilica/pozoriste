@@ -1,3 +1,4 @@
+<?php?>
 <main>
     <div id="autor">
         <h1>Autor</h1>
