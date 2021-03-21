@@ -1,0 +1,488 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Krub', sans-serif;
+}
+header{
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #840602;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 40%;
+}
+#logo a{
+    font-size: 35px;
+    color: #fedc76;
+}
+header nav{
+    width: 80%;
+    margin: 0px auto;
+}
+header nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+#sledece{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    padding: 55px 0px;
+    text-align: right;
+}
+.sledece{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div img{
+    width: 100%;
+}
+.sledece h2,h3,p{
+    margin-bottom: 20px;
+}
+#sledeceNaslov{
+    color: #b4b4b4;
+}
+.sledece h2{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.sledece div{
+    margin-bottom: 15px;
+}
+.sledece a{
+    background-color: #840602;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.naslov{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0px;
+}
+#predstave{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.predstava{
+    width: 25%;
+    margin: 0px 10px;
+    text-align: center;
+}
+.predstava a{
+    color: #000;
+    text-decoration: none;
+}
+.predstava p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.jedna{
+    padding: 30px 0px;
+}
+#predstavaTekst{
+    width: 60%;
+    text-align: justify;
+}
+#predstavaTekst h1{
+    margin-bottom: 15px;
+}
+#predstavaTekst p,.tekst p{
+    font-weight: bold;
+}
+#repertoar{
+    width: 80%;
+    margin: 0px auto;
+    min-height: 150px;
+}
+.repertoar{
+    border: 1px solid #840602;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding-right: 20px;
+}
+.repertoar .datum{
+    padding: 20px;
+    background-color: #840602;
+    color: #fff;
+}
+.repertoar a{
+    text-decoration: none;
+    color: #000;
+}
+#rezervacija{
+    display: none;
+    position: fixed;
+    background-color: #840602;
+    top: 80px;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    min-height: 400px;
+    padding: 20px;
+    color: #fff;
+}
+#rezervacija a,.forma a{
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+}
+#rezervacija p{
+    margin: 15px 0px;
+}
+#rezervacija{
+    font-size: 20px;
+}
+#rezervacija h2{
+    margin: 30px 0px;
+}
+#rezervacija select{
+    border: 0px;
+    padding: 5px;
+}
+input[type='button']{
+    border: 0px;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: bold;
+}
+#rezervacija input[type='button']{
+    margin-top: 15px;
+    font-size: 15px;
+}
+#ikonice{
+    position: fixed;
+    right: 5px;
+    top: 50%;
+}
+#ikonice a{
+    color: #000;
+    font-size: 25px;
+}
+.forma{
+    width: 50%;
+    position: fixed;
+    background-color: #840602;
+    color: #fff;
+    top: 80px;
+    left: 25%;
+    right: 25%;
+    padding: 40px;
+    text-align: center;
+}
+.forma input{
+    font-family: 'Krub', sans-serif;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+#logovanje{
+    display: none;
+}
+.forma h2{
+    margin-bottom: 15px;
+}
+.forma #linkRegistracija{
+    position: relative;
+    text-decoration: none;
+}
+#registracija{
+    display: none;
+    top: 15px;
+}
+#registracija p{
+    margin-bottom: 15px;
+}
+.forma #imeReg,.forma #prezimeReg{
+    width: 49.5%;
+}
+footer{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #840602;
+    color: #fff;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+main{
+    padding-bottom: 20px;
+}
+#slika{
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/slika2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#cenovnik{
+    width: 100%;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+table tr{
+    border-bottom: 1px solid #840602;
+    font-size: 20px;
+}
+table tr td{
+    padding: 10px;
+}
+table tr th{
+    text-transform: uppercase;
+}
+tr:nth-child(even),tr:nth-child(even) a{
+    background-color: #840602;
+    color: #fff;
+}
+tr:nth-child(odd) a{
+    color: #000;
+}
+table a{
+    text-decoration: none;
+}
+#sledece p,#repertoar a,input{
+    font-weight: bold;
+}
+#oNama{
+    width: 100%;
+    text-align: justify;
+    margin: 80px 0px;
+}
+#tekst{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+#tekst .tekst{
+    width: 45%;
+}
+#search{
+    width: 80%;
+    margin: 0px auto;
+    text-align: right;
+}
+#search input{
+    font-family: 'Krub', sans-serif;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #840602;
+}
+#stranicenje{
+    text-align: center;
+}
+#stranicenje a,#stranicenje span{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#autor{
+    padding-top: 20px;
+    text-align: center;
+}
+#autor #tekst{
+    text-align: left;
+}
+#autor .tekst p{
+    margin-top: 30px;
+}
+#autor p{
+    font-weight: bold;
+}
+#stranicenje .aktivanLink{
+    color: #840602;
+}
+#tabelaRezervacije{
+    text-align: center;
+    min-height: 150px;
+}
+#forma{
+    width: 80%;
+    margin: 0px auto;
+    padding: 40px;
+}
+#forma input[type='text'],#forma textarea{
+    font-family: 'Krub', sans-serif;
+    border: 1px solid #840602;
+    padding: 10px;
+    width: 50%;
+    font-weight: bold;
+}
+#forma textarea{
+    resize: none;
+    height: 200px;
+}
+#forma input[type="button"]{
+    background-color: #840602;
+    color: #fff;
+    padding: 15px;
+}
+#mapa iframe{
+    width: 100%;
+    border: 0px;
+    height: 400px;
+}
+#forma p{
+    color: #840602;
+    font-weight: bold;
+}
+.aktivacija{
+    height: 200px;
+}
+#anketa input[type='radio']{
+    margin: 5px;
+}
+#anketa{
+    font-weight: bold;
+    margin: 0px auto;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#anketa input[type="button"]{
+    color: #fff;
+    background-color: #840602;
+    font-weight: normal;
+    margin-top: 10px;
+}
+#anketa div{
+    width: 45%;
+}
+#anketa #slikaAnketa{
+    width: 30%;
+}
+#admin{
+    width: 100%;
+    display: flex;
+}
+#adminNavigacija{
+    width: auto;
+    background-color: #100e22;
+    min-height: 700px;
+    padding: 20px;
+    font-size: large;
+}
+#adminNavigacija ul{
+    list-style-type: none;
+}
+#adminNavigacija a{
+    color: #fff;
+    text-decoration: none;
+}
+#adminNavigacija ul{
+    color: #f2b0a5;
+}
+#adminNavigacija ul li ul{
+    margin-left: 25px;
+}
+#adminNavigacija ul li{
+    margin-top: 15px;
+}
+#adminNavigacija li ul li{
+    margin-top: 10px;
+}
+#adminNavigacija i{
+    margin: 5px;
+}
+#adminMain{
+    width: 80%;
+    padding: 20px;
+}
+#adminMain td{
+    text-align: center;
+}
+#adminMain td img{
+    width: 20%;
+}
+#sadrzajAdmin{
+    margin-top: 20px;
+}
+#sadrzajAdmin table{
+    width: 100%;
+}
+#sadrzajAdmin table tr:nth-child(even),#sadrzajAdmin table tr:nth-child(even) a{
+    background-color: #100e22;
+}
+#sadrzajAdmin table tr{
+    border-bottom: 1px solid #100e22;
+}
+#sadrzajAdmin input[type='text'],#sadrzajAdmin textarea,input[type='date'],#sadrzajAdmin input[type='button'],select{
+    font-family: 'Krub', sans-serif;
+    border: 1px solid #100e22;
+    padding: 5px;
+    width: 50%;
+    font-weight: bold;
+}
+#sadrzajAdmin input[type='button']{
+    background-color: #100e22;
+    color: #fff;
+    padding: 10px;
+}
+#sadrzajAdmin p{
+    margin: 5px;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+}
+#sadrzajAdmin textarea{
+    resize: none;
+    height: 200px;
+}
+select option{
+    font-weight: bold;
+}
+#anketaOnemoguci,#anketaOmoguci{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
