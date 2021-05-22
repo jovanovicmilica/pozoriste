@@ -7,7 +7,7 @@
             <img src="assets/images/jana.jpg" alt="Autor">
         </div>
         <div class="tekst">
-        <h2>Milica Jovanovicć 88/18</h2>
+        <h2>Milica Jovanović 88/18</h2>
 
         <p>Smer- Internet tehnologije</p>
         <p>Modul- Web programiranje</p>
